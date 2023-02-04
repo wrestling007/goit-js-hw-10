@@ -1,4 +1,9 @@
 {
+    "transformers": {
+    "*.hbs": [
+      "parcel-transformer-hbs"
+    ]
+  },
   "extends": [
     "@parcel/config-default"
   ],
@@ -6,4 +11,6 @@
     "...",
     "parcel-reporter-clean-dist"
   ]
+
 }
+
